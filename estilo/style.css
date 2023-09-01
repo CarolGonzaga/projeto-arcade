@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-image: url(../assets/TIJOLO-DEGRADE.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #302d75;
+    margin: auto;
+    overflow: hidden;
+}
+
+header div {
+    max-width: 1080px;
+    margin: auto;
+}
+
+header img {
+    max-width: 100px;
+    padding: 20px 40px;
+    float: left;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+    margin-top: 75px;
+}
+
+nav li {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    float: left;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.452);
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: #F3B02F;
+}
+
+main {
+    background-color: white;
+    max-width: 1000px; 
+    margin: auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.topo h1 {
+    font-size: 30px;
+    padding: 20px;
+    padding-bottom: 0;
+    font-weight: normal;
+}
+
+hr {
+    max-width: 960px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.topo div {
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.topo p {
+    padding: 20px;
+    text-align: justify;
+}
+
+strong {
+    font-size: 18px;
+}
+
+.topo img {
+    max-width: 350px;
+    padding: 0px 20px;
+    float: left;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 20px;
+    padding-bottom: 0;
+    font-weight: normal;
+}
+
+.quadros {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.quadros a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+.quadros img {
+    max-width: 230px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quadros img:hover {
+    transform: scale(1.02);
+    opacity: 0.5;
+}
+
+.orcamento {
+    max-width: 960px; 
+    margin: auto;
+    background-image: url(../assets/orcamento.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.formContainer {
+    max-width: 350px;
+    background-color: #b818bbbc;
+    padding: 20px;
+    margin: 20px;
+    float: right;
+    border-radius: 10px;
+}
+
+.orcamento h2 {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: #302d75;
+    font-weight: bold;
+    height: 50px;
+}
+
+footer {
+    background-color: #302d75;
+}
+
+footer div {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+    float: left;
+    padding-right: 30px;
+}
+
+footer h3 {
+    color: #F3B02F;
+}
+
+footer p {
+    color: white;
+}
+
+.social {
+    width: 48px;
+    float: right;
+    padding-right: 10px;
+    padding-top: 40px;
+}
+
+.social:hover {
+    transform: scale(1.0);
+}
+
+.rodape {
+    background-color: #141050;
+    color: #5753a3;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
+
+@media screen and (max-width: 700px) {
+
+    .topo img {
+        max-width: 420px;
+        padding: 10px;
+        float: left;
+    }
+    
+    .quadros {
+        display: block;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .quadros img {
+        max-width: 230px;
+        align-items: center;
+        display: block;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    body {
+        text-align: center;
+    }
+
+    .topo img {
+        max-width: 250px;
+        padding: 10px;
+        float: left;
+    }
+    
+    .quadros {
+        display: block;
+        padding-bottom: 40px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .logo {
+        width: 150px;
+        display: block;
+        float: none;
+        clear: both;
+        padding: 0;
+        margin: auto;
+    }
+
+    .social {
+        width: 32px;
+        float: none;
+        padding-bottom: 10px;
+    }
+
+    .orcamento {
+        background-image: none;
+    }
+
+    footer div {
+        text-align: center;
+        justify-content: center;
+    }
+
+}
