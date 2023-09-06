@@ -269,6 +269,7 @@ footer p {
 
     .quadros {
         flex-wrap: wrap;
+        gap: 10px;
     }
 
     .orcamento {
