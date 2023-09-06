@@ -122,8 +122,7 @@ h2 {
 
 .quadros {
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-between;
     padding-bottom: 40px;
     font-size: 20px;
     text-align: center;
