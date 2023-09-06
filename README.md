@@ -1,6 +1,7 @@
 # Projeto - Arcade
 - Meu Primeiro Projeto 
 - Site Fictício
+- Responsivo
 
 <br/>
 
