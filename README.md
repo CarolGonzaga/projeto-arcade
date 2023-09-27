@@ -1,5 +1,5 @@
 # Projeto - Arcade
-- Meu Primeiro Projeto 
+- Meu __Primeiro__ Projeto 
 - Site Fictício
 - Responsivo
 
