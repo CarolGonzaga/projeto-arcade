@@ -1,7 +1,12 @@
 # Projeto - Arcade
-- Meu __Primeiro__ Projeto 
-- Site Fictício
+- Meu **Primeiro** Projeto 
+- Site Fictício de Assistência Técnica de Consoles
 - Responsivo
+
+<br/>
+
+# Descrição:
+"Arcade" é uma aplicação web fictícia que representa uma loja de assistência técnica de consoles de videogame. O projeto utiliza HTML e CSS para criar um site informativo com recursos como navegação, exibição de serviços de conserto e um formulário de solicitação de orçamento.
 
 <br/>
 
